@@ -1,0 +1,9 @@
+reset;
+
+model task1.mod;
+data task1_small.dat;
+option solver ’./cplex’;
+solve;
+display X;
+
+
